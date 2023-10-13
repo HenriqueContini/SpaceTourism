@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
+import { Header } from "./components/Header";
 
 const theme = {
   background: "#0B0D17",
@@ -10,7 +11,7 @@ const theme = {
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <h1>App</h1>
+      <Header />
       <Outlet />
     </ThemeProvider>
   );
