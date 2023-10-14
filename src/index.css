@@ -1,14 +1,15 @@
 @import url("./reset.css");
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap");
 
 * {
-  font-family: "Bellefair", serif;
   box-sizing: border-box;
 }
 
 body {
+  font-family: "Barlow", sans-serif;
   background-color: #0b0f1a;
 }
 
-/* font-family: 'Barlow Condensed', sans-serif;
+/* font-family: 'Barlow', sans-serif;
+font-family: 'Barlow Condensed', sans-serif;
 font-family: 'Bellefair', serif; */

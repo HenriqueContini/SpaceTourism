@@ -34,13 +34,14 @@ export const nav = styled.nav`
   right: ${({ $opened }) => ($opened ? "0" : "-400px")};
   height: 100%;
   width: 250px;
-  backdrop-filter: blur(40px);
+  backdrop-filter: blur(15px);
   /* End */
 
   display: flex;
   flex-direction: column;
   gap: 32px;
   padding: 32px 24px 32px 32px;
+
   transition: right 300ms linear;
 
   a {
@@ -49,11 +50,12 @@ export const nav = styled.nav`
   }
 
   a.active {
-    border-bottom-color: ${(props) => props.theme.white};
+    border-bottom-color: ${(props) => props.theme.color.white};
   }
 
   a:hover {
-    border-bottom-color: ${(props) => props.theme.white}80;
+    transition: 300ms linear;
+    border-bottom-color: ${(props) => props.theme.color.white}80;
   }
 
   @media screen and (min-width: 600px) {
@@ -67,8 +69,8 @@ export const nav = styled.nav`
 `;
 
 export const textLink = styled.p`
-  font-family: "Barlow Condensed", sans-serif;
-  color: ${(props) => props.theme.main};
+  font-family: ${(props) => props.theme.font.subtitle};
+  color: ${(props) => props.theme.color.main};
   text-transform: uppercase;
   font-size: 1.25rem;
   letter-spacing: 2.7px;
