@@ -63,16 +63,23 @@ export const linkWrapper = styled.div`
   & > a {
     display: flex;
     background-color: ${(props) => props.theme.color.white};
+    color: ${(props) => props.theme.color.background};
     width: 180px;
     height: 180px;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    border-width: 25px;
+    border-style: solid;
+    border-color: ${(props) => props.theme.color.white};
+
+    transition: 200ms;
   }
 
   & > a:hover {
-    border: 25px solid #363847;
+    border-color: #363847;
+    transition: 200ms linear;
   }
 
   @media screen and (min-width: 1024px) {
@@ -82,7 +89,8 @@ export const linkWrapper = styled.div`
     }
 
     & > a:hover {
-      border: 40px solid #363847;
+      border-width: 40px;
+      border-color: #363847;
     }
   }
 `;
