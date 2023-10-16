@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import tabletBackground from "./imgs/background-home-tablet.jpg";
-import desktopBackground from "./imgs/background-home-desktop.jpg";
+import tabletBackground from "./bg/background-home-tablet.jpg";
+import desktopBackground from "./bg/background-home-desktop.jpg";
 
 export const homeContainer = styled.main`
   padding: 100px 24px 24px 24px;
