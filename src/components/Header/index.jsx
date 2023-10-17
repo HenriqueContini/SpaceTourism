@@ -38,7 +38,6 @@ export const Header = () => {
           <S.logoImg src={logo} alt="Space Tourism Logo" />
         </Link>
       </div>
-      {/* Nav wrapper */}
       <div>
         <S.toggleButton onClick={toggleNav}>
           <img src={openIcon} alt="Open menu" />
@@ -48,7 +47,7 @@ export const Header = () => {
             <img src={closeIcon} alt="Open menu" />
           </S.toggleButton>
           {linksArr.map((item, index) => (
-            <NavLink to={item.url} key={index}>
+            <NavLink to={item.url} key={index} onClick={toggleNav}>
               <S.textLink>
                 <S.spanTextLink>0{index}</S.spanTextLink>
                 {item.name}
