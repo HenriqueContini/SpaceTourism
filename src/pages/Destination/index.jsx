@@ -13,7 +13,10 @@ export const Destination = () => {
       </S.title>
 
       <S.container>
-        <S.planetImg src={activePlanet.image} />
+        <S.planetImg
+          src={activePlanet.image}
+          placeholder={`Photo of ${activePlanet.name}`}
+        />
 
         <S.wrapper>
           <S.planetSelector>
