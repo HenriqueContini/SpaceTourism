@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import * as S from "./styles";
 import { DestinationCard } from "../../components/DestinationCard";
 import data from "../../assets/destinationImgs/data.json";
