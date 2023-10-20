@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import * as S from "./styles";
-import data from "../../assets/crewImgs/data.json";
+import data from "./data.json";
 import { PersonCard } from "../../components/PersonCard";
 
 export const Crew = () => {

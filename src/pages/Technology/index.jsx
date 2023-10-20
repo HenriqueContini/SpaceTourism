@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import * as S from "./styles";
-import data from "../../assets/technologyImgs/data.json";
+import data from "./data.json";
 import { TechnologyCard } from "../../components/TechnologyCard";
 
 export const Technology = () => {

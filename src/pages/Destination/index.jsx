@@ -1,7 +1,7 @@
 import { useState } from "react";
 import * as S from "./styles";
 import { DestinationCard } from "../../components/DestinationCard";
-import data from "../../assets/destinationImgs/data.json";
+import data from "./data.json";
 
 export const Destination = () => {
   const [activePlanet, setActivePlanet] = useState(data[0]);
