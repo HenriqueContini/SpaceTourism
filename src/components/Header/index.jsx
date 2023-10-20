@@ -47,7 +47,11 @@ export const Header = () => {
             <img src={closeIcon} alt="Open menu" />
           </S.toggleButton>
           {linksArr.map((item, index) => (
-            <NavLink to={item.url} key={index} onClick={toggleNav}>
+            <NavLink
+              to={item.url}
+              key={index}
+              onClick={() => setOpenNav(false)}
+            >
               <S.textLink>
                 <S.spanTextLink>0{index}</S.spanTextLink>
                 {item.name}
