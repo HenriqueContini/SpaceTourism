@@ -21,14 +21,14 @@ export const Destination = () => {
         <S.wrapper>
           <S.planetSelector>
             {data.map((planet, index) => (
-              <S.planetSelectButton
+              <S.planetSelectorButton
                 className={planet.name === activePlanet.name ? "active" : null}
                 onClick={() => setActivePlanet(data[index])}
                 type="button"
                 key={index}
               >
                 {planet.name}
-              </S.planetSelectButton>
+              </S.planetSelectorButton>
             ))}
           </S.planetSelector>
 

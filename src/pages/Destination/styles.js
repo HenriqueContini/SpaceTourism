@@ -84,7 +84,7 @@ export const planetSelector = styled.div`
   }
 `;
 
-export const planetSelectButton = styled.button`
+export const planetSelectorButton = styled.button`
   color: ${(props) => props.theme.color.main};
   font-family: ${(props) => props.theme.font.subtitle};
   font-size: 1rem;
