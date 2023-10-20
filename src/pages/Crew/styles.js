@@ -9,11 +9,12 @@ export const crewContainer = styled.main`
   min-height: calc(100vh - 90px);
 
   @media screen and (min-width: 600px) {
-    padding: 80px;
     padding-bottom: 0;
   }
 
   @media screen and (min-width: 1024px) {
+    padding: 80px;
+    padding-bottom: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

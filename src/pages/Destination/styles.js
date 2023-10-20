@@ -8,9 +8,8 @@ export const destinationContainer = styled.main`
   background-repeat: no-repeat;
   min-height: calc(100vh - 90px);
 
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 1024px) {
     padding: 80px;
-    padding-bottom: 0;
   }
 `;
 
