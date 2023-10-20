@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import background from "./bg/background-technology.jpg";
+import background from "./bg/stars2.jpg";
 
 export const technologyContainer = styled.main`
   padding: 50px 0 36px 0;

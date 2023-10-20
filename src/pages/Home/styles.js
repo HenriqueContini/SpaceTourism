@@ -1,10 +1,9 @@
 import styled from "styled-components";
-import tabletBackground from "./bg/background-home-tablet.jpg";
-import desktopBackground from "./bg/background-home-desktop.jpg";
+import background from "./bg/earth.jpg";
 
 export const homeContainer = styled.main`
   padding: 100px 24px 24px 24px;
-  background-image: url(${tabletBackground});
+  background-image: url(${background});
   background-size: cover;
   background-repeat: no-repeat;
   min-height: calc(100vh - 90px);
@@ -13,10 +12,6 @@ export const homeContainer = styled.main`
   flex-direction: column;
   align-items: center;
   gap: 100px;
-
-  @media screen and (min-width: 768px) {
-    background-image: url(${desktopBackground});
-  }
 
   @media screen and (min-width: 1024px) {
     flex-direction: row;

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import background from "./bg/background-destination.jpg";
+import background from "./bg/stars.jpg";
 
 export const destinationContainer = styled.main`
   padding: 50px 36px 36px 36px;

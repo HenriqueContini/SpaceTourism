@@ -13,11 +13,10 @@ export const card = styled.div`
 
 export const role = styled.h2`
   font-size: 1em;
-  color: ${(props) => props.theme.color.white};
+  color: #777785;
   font-family: ${(props) => props.theme.font.title};
   text-align: center;
   text-transform: uppercase;
-  opacity: 0.5;
 
   @media screen and (min-width: 1024px) {
     text-align: left;
