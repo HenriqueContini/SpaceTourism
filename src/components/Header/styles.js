@@ -34,7 +34,7 @@ export const nav = styled.nav`
   right: ${({ $opened }) => ($opened ? "0" : "-400px")};
   height: 100%;
   width: 250px;
-  backdrop-filter: blur(15px);
+  backdrop-filter: blur(25px);
   /* End */
 
   display: flex;
