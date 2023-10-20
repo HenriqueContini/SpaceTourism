@@ -2,7 +2,7 @@
 
 ### 🖥️ Projeto
 
-Para visualizar o site, <a href="https://vitrine-gamer.vercel.app/">clique aqui</a>.
+Para visualizar o site, <a href="https://space-tourism-henriquecontini.vercel.app/">clique aqui</a>.
 
 ![image](https://github.com/HenriqueContini/SpaceTourism/assets/81761545/fc0fd09e-825c-4e93-9e7f-3a3218208875)
 
