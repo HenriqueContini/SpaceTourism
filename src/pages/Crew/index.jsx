@@ -7,7 +7,7 @@ export const Crew = () => {
   const [activePerson, setActivePerson] = useState(data[0]);
 
   return (
-    <S.destinationContainer>
+    <S.crewContainer>
       <S.title>
         <span>02</span>Meet your crew
       </S.title>
@@ -29,6 +29,6 @@ export const Crew = () => {
 
         <PersonCard person={activePerson} />
       </S.container>
-    </S.destinationContainer>
+    </S.crewContainer>
   );
 };

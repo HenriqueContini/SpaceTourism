@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import background from "./bg/background-crew.jpg";
 
-export const destinationContainer = styled.main`
+export const crewContainer = styled.main`
   padding: 50px 36px 36px 36px;
   background-image: url(${background});
   background-size: cover;
